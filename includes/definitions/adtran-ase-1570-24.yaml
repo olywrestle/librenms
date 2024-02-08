@@ -1,0 +1,15 @@
+os: adtran-asev20
+text: 'Adtran ASE'
+type: network
+icon: adtran
+mib_dir: adtran/1570
+over:
+    - { graph: device_bits, text: 'Device Traffic' }
+    - { graph: device_processor, text: 'CPU Usage' }
+    - { graph: device_mempool, text: 'Memory Usage' }
+discovery:
+    -
+        sysObjectID: .1.3.6.1.4.1.664
+        sysDescr: '1570-24'
+good_if:
+    - EtsecBasedVirtualEthernet1
