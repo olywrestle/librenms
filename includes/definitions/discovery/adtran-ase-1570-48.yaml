@@ -1,0 +1,17 @@
+mib: NETVANTA-1570-48-740W-MIB
+modules:
+#
+#    mempools:
+#        data:
+#            -
+#                total: 
+#                free: 
+    os:
+        hardware: NETVANTA-1570-48-740W-MIB::netvanta-1570-48-740SystemInfoModelName.0
+        serial: NETVANTA-1570-48-740W-MIB::netvanta-1570-48-740SystemInfoSeriesNumber.0
+        version: NETVANTA-1570-48-740W-MIB::netvanta-1570-48-740SystemInfoFirmwareVersion.0
+#  processors:
+#        data:
+#           -
+#
+#                oid: 

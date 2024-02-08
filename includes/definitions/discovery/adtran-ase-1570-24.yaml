@@ -1,0 +1,17 @@
+mib: NETVANTA-1570-24-370W-MIB
+modules:
+#
+#    mempools:
+#        data:
+#            -
+#                total: 
+#                free: 
+    os:
+        hardware: NETVANTA-1570-24-370W-MIB::netvanta-1570-24-370SystemInfoModelName.0
+        serial: NETVANTA-1570-24-370W-MIB::netvanta-1570-24-370SystemInfoSeriesNumber.0
+        version: NETVANTA-1570-24-370W-MIB::netvanta-1570-24-370SystemInfoFirmwareVersion.0
+#  processors:
+#        data:
+#           -
+#
+#                oid: 

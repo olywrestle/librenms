@@ -1,0 +1,17 @@
+mib: NETVANTA-1760-12F-MIB
+modules:
+#
+#    mempools:
+#        data:
+#            -
+#                total: 
+#                free: 
+    os:
+        hardware: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoModelName.0
+        serial: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoSeriesNumber.0
+        version: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoFirmwareVersion.0
+#  processors:
+#        data:
+#           -
+#
+#                oid: 

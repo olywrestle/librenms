@@ -1,0 +1,17 @@
+mib: AD-AMSE-SYSUTIL-MIB:AD-AMSE-ICFG-MIB:AD-AMSE-FIRMWARE-MIB
+modules:
+
+    mempools:
+        data:
+            -
+                total: AD-AMSE-ICFG-MIB::adIcfgStatusFileStatisticsFlashSizeBytes.0
+                free: AD-AMSE-ICFG-MIB:adIcfgStatusFileStatisticsFlashFreeBytes.0
+    os:
+        hardware: AD-AMSE-FIRMWARE-MIB::adFirmwareStatusSwitchProduct.1
+        serial: AD-AMSE-SYSUTIL-MIB::adSysutilStatusBoardInfoBoardSerial.0
+        version: AD-AMSE-FIRMWARE-MIB::adFirmwareStatusSwitchVersion.1
+    processors:
+        data:
+            -
+                oid: adSysutilStatusCpuLoadAverage10sec
+                num_oid: '1.3.6.1.4.1.664.8.1.24.1.3.1.{{ $index }}'

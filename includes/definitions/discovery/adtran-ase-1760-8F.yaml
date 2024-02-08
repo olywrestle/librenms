@@ -1,0 +1,17 @@
+mib: NETVANTA-1760-8F-MIB
+modules:
+#
+#    mempools:
+#        data:
+#            -
+#                total:
+#                free:
+    os:
+        hardware: NETVANTA-1760-8F-MIB::netvanta17608fSystemInfoModelName.0
+        serial: NETVANTA-1760-8F-MIB::netvanta17608fSystemInfoSeriesNumber.0
+        version: NETVANTA-1760-8F-MIB::netvanta17608fSystemInfoFirmwareVersion.0
+#  processors:
+#        data:
+#           -
+#
+#                oid:
