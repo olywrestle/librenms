@@ -13,5 +13,12 @@ modules:
    processors:
         data:
            -
-                oid: netvanta176012fSystemInfoCPULoad
-                num_oid: .1.3.6.1.4.1.664.8.6.1.1.1.24.0
+#                oid: netvanta176012fSystemInfoCPULoadAverage100msec
+#                num_oid: '.1.3.6.1.4.1.664.8.6.1.1.1.41.0'
+
+#                oid: netvanta176012fSystemInfoCPULoadAverage1sec
+#                num_oid: '.1.3.6.1.4.1.664.8.6.1.1.1.42.0'
+#
+                oid: netvanta176012fSystemInfoCPULoadAverage10sec
+                num_oid: '.1.3.6.1.4.1.664.8.6.1.1.1.43.0'
+
