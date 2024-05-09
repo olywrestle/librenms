@@ -10,7 +10,7 @@ modules:
         hardware: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoModelName.0
         serial: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoSeriesNumber.0
         version: NETVANTA-1760-12F-MIB::netvanta176012fSystemInfoFirmwareVersion.0
-   processors:
+    processors:
         data:
            -
 #                oid: netvanta176012fSystemInfoCPULoadAverage100msec
